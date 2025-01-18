@@ -43,7 +43,7 @@ on:
         default: macOS
 jobs:
   Linux:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Generate key
         if: github.event.inputs.os == 'Linux'
